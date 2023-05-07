@@ -17,7 +17,7 @@ const App: FC = () => {
   const [error, setError] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
 
-  const API_BASE_URL = "https://url-shortener-h6l6.onrender.com/";
+  const API_BASE_URL = "https://url-shortener-h6l6.onrender.com";
 
   const handleShorten = async (
     e: FormEvent<HTMLFormElement>,
